@@ -1,4 +1,6 @@
 {
+  "buildCommand": "cd text-to-image-app && npm install && npm run build",
+  "outputDirectory": "text-to-image-app/dist",
   "rewrites": [
     {
       "source": "/hf-api/:path*",
