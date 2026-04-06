@@ -1,0 +1,2 @@
+/hf-api/*  https://router.huggingface.co/:splat  200
+/*  /index.html  200
