@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 // Hugging Face API configuration (proxied via Vite Router with hf-inference path)
-const HF_API_URL = "/hf-api/hf-inference/models/stabilityai/stable-diffusion-xl-base-1.0"
+const HF_API_URL = "/hf-inference/models/stabilityai/stable-diffusion-xl-base-1.0"
 
 function App() {
   const [prompt, setPrompt] = useState('')
