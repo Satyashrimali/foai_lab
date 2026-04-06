@@ -3,15 +3,7 @@
   "trailingSlash": false,
   "rewrites": [
     {
-      "source": "/hf-api/:path*",
-      "destination": "https://api-inference.huggingface.co/:path*"
-    },
-    {
-      "source": "/hf-inference/:path*",
-      "destination": "https://api-inference.huggingface.co/:path*"
-    },
-    {
-      "source": "/models/:path*",
+      "source": "/hf/:path*",
       "destination": "https://api-inference.huggingface.co/models/:path*"
     },
     {
